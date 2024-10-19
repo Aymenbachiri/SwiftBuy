@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import MyLink from "../reusableComponents/MyLink";
 import { useNavbar } from "./NavbarProvider";
 
 type MobileNavbarLinkProps = {
@@ -14,8 +14,12 @@ export default function MobileNavbarLink({ link }: MobileNavbarLinkProps) {
   const { handleNav } = useNavbar();
 
   return (
-    <Link className="py-2 hover:border-b" href={link.href} onClick={handleNav}>
+    <MyLink
+      className="py-2 hover:border-b"
+      href={link.href}
+      onClick={handleNav}
+    >
       {link.label}
-    </Link>
+    </MyLink>
   );
 }

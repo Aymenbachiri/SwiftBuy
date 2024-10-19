@@ -1,6 +1,6 @@
 import MyImage from "@/components/reusableComponents/MyImage";
 import notFoundImg from "/public/assets/images/404_page-not-found.webp";
-import Link from "next/link";
+import MyLink from "@/components/reusableComponents/MyLink";
 
 export default function Notfound() {
   return (
@@ -13,12 +13,12 @@ export default function Notfound() {
           <p className="mb-8 text-2xl font-light leading-normal dark:text-slate-300 md:text-3xl">
             Sorry we couldn&apos;t find the page you&apos;re looking for
           </p>
-          <Link
+          <MyLink
             href="/"
             className="duration-400 mx-auto inline rounded-lg border border-transparent bg-blue-600 px-5 py-3 text-center text-sm font-medium leading-5 text-white shadow-2xl transition-all hover:bg-red-700 focus:outline-none active:bg-red-600 md:text-start"
           >
             back to homepage
-          </Link>
+          </MyLink>
         </section>
         <section className="mx-5 my-12 w-full rounded-md lg:flex lg:w-1/2 lg:justify-end">
           <MyImage
@@ -26,7 +26,7 @@ export default function Notfound() {
             alt="Page not found"
             width={540}
             height={260}
-            sizes="(min-width: 1120px) 480px, (min-width: 780px) 43.13vw, calc(100vw - 96px)"
+            sizes="(min-width: 1280px) 540px, (min-width: 1040px) 440px, (min-width: 780px) 312px, (min-width: 620px) 540px, calc(93.33vw - 20px)"
             placeholder="blur"
             style={{ borderRadius: "1rem" }}
           />

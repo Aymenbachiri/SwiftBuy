@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import errorImg from "/public/assets/images/window-operating-system-error-wa.webp";
-import Link from "next/link";
 import MyImage from "@/components/reusableComponents/MyImage";
+import MyLink from "@/components/reusableComponents/MyLink";
 
 export default function Error({
   error,
@@ -57,7 +57,7 @@ export default function Error({
                 >
                   <span>{isLoading ? "Trying again..." : "Try again"}</span>
                 </button>
-                <Link
+                <MyLink
                   href="/"
                   className="flex w-full items-center justify-center rounded-lg border border-gray-300 px-4 py-2 font-medium text-gray-700 transition-colors duration-300 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
@@ -76,7 +76,7 @@ export default function Error({
                     />
                   </svg>
                   <span>Go back home</span>
-                </Link>
+                </MyLink>
               </nav>
             </section>
           </header>
