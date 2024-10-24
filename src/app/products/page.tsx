@@ -40,18 +40,5 @@ export const metadata: Metadata = {
 };
 
 export default function page() {
-  return (
-    <main className="px-4 py-8 sm:px-6 lg:px-8">
-      <section className="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 md:mt-24 lg:max-w-2xl">
-        <h2 className="mb-6 mt-10 max-w-lg font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl md:mx-auto">
-          <span className="relative sm:mt-20 md:mt-0">Our Latest Products</span>
-        </h2>
-        <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg">
-          Explore our range of high-quality products, each carefully selected to
-          meet your needs.
-        </p>
-      </section>
-      <ProductsPage />
-    </main>
-  );
+  return <ProductsPage />;
 }
