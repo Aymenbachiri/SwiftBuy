@@ -9,9 +9,7 @@ export default async function Testimonials() {
           What Our Customers Say
         </h2>
       </AppearAnimation>
-      <AppearAnimation delay={0.2} from="bottom">
-        <MarqueeDemo />
-      </AppearAnimation>
+      <MarqueeDemo />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Features from "@/components/home/Features";
 import HomeBody from "@/components/home/HomeBody";
+import Location from "@/components/home/Location";
 import Testimonials from "@/components/home/testimonials/Testimonials";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HomeBody />
       <Features />
       <Testimonials />
+      <Location />
     </>
   );
 }
