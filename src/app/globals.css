@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply h-screen bg-[#fafafa] text-[#1f2937] dark:bg-black dark:text-white;
+    @apply h-screen bg-[#FFFFFF] text-[#1f2937] dark:bg-black dark:text-white;
   }
 }
 html.lenis,

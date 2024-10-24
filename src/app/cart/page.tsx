@@ -1,4 +1,3 @@
-import CartPage from "@/page/CartPage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -37,5 +36,5 @@ export const metadata: Metadata = {
 };
 
 export default function page() {
-  return <CartPage />;
+  return <div>Cart Page</div>;
 }

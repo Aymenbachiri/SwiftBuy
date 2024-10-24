@@ -11,7 +11,7 @@ export default function NavLinks() {
     <>
       {links.map((link) => (
         <MyLink href={link.href} key={link.href}>
-          <li className="py-1 hover:border-b hover:border-b-black dark:hover:border-b-gray-300">
+          <li className="py-1 duration-200 hover:border-b hover:border-b-black dark:hover:border-b-gray-300">
             {link.label}
           </li>
         </MyLink>

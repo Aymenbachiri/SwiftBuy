@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { UrlObject } from "url";
 
 interface CustomLinkProps {
-  href: string | UrlObject;
+  href: string | URL;
   children: React.ReactNode;
   className?: string;
   target?: "_blank" | "_self" | "_parent" | "_top";

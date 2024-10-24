@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
-import errorImg from "/public/assets/images/window-operating-system-error-wa.webp";
 import MyImage from "@/components/reusableComponents/MyImage";
 import MyLink from "@/components/reusableComponents/MyLink";
+import errorImg from "/public/assets/images/window-operating-system-error-wa.webp";
+import { useState } from "react";
 
 export default function Error({
   error,
