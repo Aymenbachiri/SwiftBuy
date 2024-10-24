@@ -5,6 +5,7 @@ import NextTopLoader from "nextjs-toploader";
 import ReduxProvider from "./ReduxProvider";
 import { Toaster } from "react-hot-toast";
 import { ClerkProvider } from "@clerk/nextjs";
+import Footer from "@/components/Footer";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
@@ -15,6 +16,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
           <NextTopLoader />
           <Navbar />
           {children}
+          <Footer />
           <Toaster position="top-center" />
         </ReduxProvider>
       </ThemeProvider>
