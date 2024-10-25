@@ -26,5 +26,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.5,
     },
+    {
+      url: "https://swiftbuy.vercel.app/products",
+      lastModified: "2024-10-19",
+      changeFrequency: "weekly",
+      priority: 0.5,
+    },
   ];
 }
