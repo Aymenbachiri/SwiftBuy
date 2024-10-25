@@ -9,9 +9,9 @@ export default function RightIcon({ className }: { className?: string }) {
       >
         <path
           fill="currentColor"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="m10.207 8l-3.854 3.854l-.707-.707L8.793 8L5.646 4.854l.707-.708z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
       </svg>
     </main>
